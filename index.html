@@ -9,16 +9,16 @@
 <body>
     <div class="app-container">
         <h1>Práctica de Factorización</h1>
-        <p>Introduce las combinaciones de factores del:</p>
+        <p>Introduce las combinaciones de factores del número.</p>
         <div class="number-box" id="number-box">Número: <span id="current-number">-</span></div>
         <div id="factors-container"></div>
+        <div class="attempts">Intentos restantes: <span id="remaining-attempts">4</span></div>
         <div class="input-container">
             <input type="number" id="factor1" placeholder="Factor 1">
             <input type="number" id="factor2" placeholder="Factor 2">
         </div>
         <button onclick="checkFactors()">Comprobar Factores</button>
         <p id="feedback"></p>
-        <button onclick="nextNumber()">Siguiente Número</button>
     </div>
     <script src="script.js"></script>
 </body>
