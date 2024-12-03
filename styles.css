@@ -25,8 +25,14 @@ h1 {
     margin: 20px 0;
 }
 
-.input-container {
+.input-container input[type="number"] {
     margin: 20px 0;
+    width: 100px; /* Ajusta el ancho según tus necesidades */
+    padding: 5px; /* Ajusta el relleno interno */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    border: 1px solid #ddd; /* Agrega un borde */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegura que padding se incluya en el ancho */
 }
 
 #factors-container {
